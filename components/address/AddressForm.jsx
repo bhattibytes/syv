@@ -174,7 +174,7 @@ class AddressForm extends Component {
       zip: postalCode,
     };
     const res = await axios({
-      url: 'https://syv.vercel.app/api/user',
+      url: 'https://syv-theta.vercel.app/api/user',
       method: 'PUT',
       data: address,
     });

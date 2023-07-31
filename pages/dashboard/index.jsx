@@ -36,7 +36,7 @@ export async function getServerSideProps(context) {
 
   const { cookie } = context.req.headers;
   try {
-    const res = await axios.get('https://syv.vercel.app/api/user', { headers: { cookie } });
+    const res = await axios.get('https://syv-theta.vercel.app/api/user', { headers: { cookie } });
     const { user } = res.data;
     let voterInfo;
     if (user.address) {

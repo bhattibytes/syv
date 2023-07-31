@@ -13,7 +13,7 @@ passport.use(new GoogleStrategy({
     clientID: process.env.GOOGLE_CLIENT_ID,
     clientSecret: process.env.GOOGLE_CLIENT_SECRET,
     //callbackURL -> after logging in redirected to
-    callbackURL: "https://syv.vercel.app/api/auth/google/callback",
+    callbackURL: "https://syv-theta.vercel.app/api/auth/google/callback",
   },
   function(accessToken, refreshToken, profile, done) {
        User.findOne({ email:  profile.emails[0].value })

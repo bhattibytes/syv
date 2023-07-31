@@ -113,7 +113,7 @@ class CompleteSignUp extends React.Component {
     try {
       e.preventDefault();
       if (this.handleValidation()) {
-        const submit = await axios.post('https://syv.vercel.app/api/users', this.state.fields);
+        const submit = await axios.post('https://syv-theta.vercel.app/api/users', this.state.fields);
         if (submit.status === 201) {
           this.setState({
             fields: {},
@@ -134,11 +134,11 @@ class CompleteSignUp extends React.Component {
   }
 
   async signUpFacebook() {
-    this.props.router.push('https://syv.vercel.app/api/auth/facebook');
+    this.props.router.push('https://syv-theta.vercel.app/api/auth/facebook');
   }
 
   async signUpGoogle() {
-    this.props.router.push('https://syv.vercel.app/api/auth/google');
+    this.props.router.push('https://syv-theta.vercel.app/api/auth/google');
   }
 
   render() {
@@ -157,13 +157,13 @@ class CompleteSignUp extends React.Component {
                   {this.state.errors.password && <span className="text-red-500">{this.state.errors.password}</span>}
 
                   <input type="submit" value="Sign-Up" className="btn btn-purple cursor-pointer" onClick={this.contactSubmit} />
-                  <Link href="https://syv.vercel.app/auth/facebook">
+                  <Link href="https://syv-theta.vercel.app/auth/facebook">
                     <a className="transition btn text-center bg-blue-600 hover:bg-blue-700 text-white flex flex-row gap-2 justify-center items-center focus:bg-blue-800">
                       <FacebookIcon />
                       Login With Facebook
                     </a>
                   </Link>
-                  <Link href="https://syv.vercel.app/api/auth/google">
+                  <Link href="https://syv-theta.vercel.app/api/auth/google">
                     <a className="transition btn text-center gap-2 bg-white hover:bg-red-500 hover:text-white focus:text-white focus:bg-red-600 text-gray-800 h-full w-full flex flex-row justify-center items-center gap-2 group">
                       <Image src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" width={20} height={20} className="transistion-all group-hover:filter group-hover:grayscale group-hover:contrast-max group-hover:brightness-max" />
                       Login With Google
