@@ -65,7 +65,7 @@ class CompleteSignUp extends React.Component {
           passLower = true;
         }
       }
-      if (fields.password.length >= 8 && fields.password.length <= 13) {
+      if (fields.password.length >= 8 && fields.password.length <= 29) {
         passLengthValid = true;
       }
       this.setState({
@@ -84,7 +84,7 @@ class CompleteSignUp extends React.Component {
     }
     if (!passLengthValid) {
       formIsValid = false;
-      errors.password = 'Password must be at least 8 characters and less than 14';
+      errors.password = 'Password must be at least 8 characters and less than 30';
     }
     if (!hasSpecial) {
       formIsValid = false;

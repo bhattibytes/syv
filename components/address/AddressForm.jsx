@@ -28,6 +28,7 @@ class AddressForm extends Component {
     this.onCheck = this.onCheck.bind(this);
     this.onClear = this.onClear.bind(this);
     this.submitForm = this.submitForm.bind(this);
+    this.toDashboard = this.toDashboard.bind(this);
   }
 
   onQuery(evt) {
@@ -84,6 +85,12 @@ class AddressForm extends Component {
     isValid = false;
     const state = this.getInitialState();
     this.setState(state);
+  }
+
+  toDashboard(evt) {
+    evt.preventDefault();
+    isValid = true;
+    this.props.router.push('/dashboard/register');
   }
 
   onAddressChange(evt) {
@@ -252,6 +259,9 @@ class AddressForm extends Component {
         {' '}
 
         <button className="btn btn-purple" type="submit" onClick={this.onClear}>Clear</button>
+        {' '}
+
+        <button className="btn btn-purple" type="submit" onClick={this.toDashboard}>Go To Dashboard</button>
         {' '}
 
         {result && isValid ? <button className="btn btn-purple" type="submit" onClick={this.submitForm}>Submit</button> : null}
