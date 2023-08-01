@@ -90,7 +90,7 @@ class AddressForm extends Component {
   toDashboard(evt) {
     evt.preventDefault();
     isValid = true;
-    this.props.router.push('/dashboard/register');
+    this.props.router.push('/dashboard');
   }
 
   onAddressChange(evt) {

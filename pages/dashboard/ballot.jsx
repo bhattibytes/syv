@@ -9,10 +9,11 @@ import Confetti from 'react-confetti';
 import Snackbar from '@material-ui/core/Snackbar';
 import MuiAlert from '@material-ui/lab/Alert';
 import Dashboard from '../../components/dashboard';
-import dummyData from '../../samples/voterInfoQuery';
+import dummyVoterData from './dummyData.json';
 import BallotAnimation from '../../components/dashboard/ballotAnimation';
 // import Button from '@material-ui/core/Button';
 import EnvelopeAnimation from '../../components/dashboard/envelope-animation';
+import { any } from 'prop-types';
 
 function Alert(props) {
   return <MuiAlert elevation={6} variant="filled" {...props} />;
@@ -171,7 +172,7 @@ export default function Ballot({ voterInfo }) {
                 )}
                 {showAlert && (
                   <Alert onClose={handleClose} severity="error">
-                    You've Already Voted! Securely.
+                    You Have Already Voted! Securely.
                   </Alert>
                 )}
               </>
@@ -194,16 +195,18 @@ export async function getServerSideProps(context) {
   const key = process.env.CIVIC_API;
 
   const { cookie } = context.req.headers;
+  let voterInfo;
   try {
-    const res = await axios.get('https://syv-theta.vercel.app/api/user', { headers: { cookie } });
+    const res = await axios.get('https://syv-theta.vercel.app//api/user', { headers: { cookie } });
 
     const { user } = res.data;
-
-    let voterInfo;
     if (user.address) {
       const address = `${user.address.street},${user.address.city},${user.address.state},${user.address.zip}`;
       // voterInfo = dummyData; // (await axios.get('https://www.googleapis.com/civicinfo/v2/voterinfo', {params: {key, address, electionId} })).data;
       voterInfo = (await axios.get('https://www.googleapis.com/civicinfo/v2/voterinfo', { params: { key, address, electionId } })).data;
+    } else {
+      const dummyAddress = 'kingsview,amherst,new york,14221';
+      voterInfo = (await axios.get('https://www.googleapis.com/civicinfo/v2/voterinfo', { params: { key, dummyAddress, electionId } })).data;
     }
     return {
       props: {
@@ -212,6 +215,11 @@ export async function getServerSideProps(context) {
       },
     };
   } catch (err) {
-    console.log(err.message);
+    return {
+      props: {
+        voterInfo: dummyVoterData,
+        user: null,
+      },
+    };
   }
 }

@@ -1,0 +1,800 @@
+{
+    "election": {
+        "id": "2000",
+        "name": "VIP Test Election",
+        "electionDay": "2025-06-06",
+        "ocdDivisionId": "ocd-division/country:us"
+    },
+    "normalizedInput": {
+        "line1": "Kingsview Road",
+        "city": "Amherst",
+        "state": "NY",
+        "zip": "14221"
+    },
+    "contests": [
+        {
+            "type": "General",
+            "office": "Governor",
+            "level": [
+                "administrativeArea1"
+            ],
+            "roles": [
+                "headOfGovernment"
+            ],
+            "district": {
+                "name": "New York",
+                "scope": "statewide",
+                "id": "ocd-division/country:us/state:ny"
+            },
+            "sources": [
+                {
+                    "name": "Ballot Information Project",
+                    "official": false
+                }
+            ],
+            "candidates": [
+                {
+                    "name": "Andrew Cuomo",
+                    "party": "Democratic",
+                    "candidateUrl": "http://andrewcuomo.com/",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/andrewcuomo"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/TeamCuomo"
+                        },
+                        {
+                            "type": "YouTube",
+                            "id": "https://www.youtube.com/channel/UC0uUriiTlN_RxMD-GBOTa-Q"
+                        }
+                    ]
+                },
+                {
+                    "name": "Andrew Cuomo",
+                    "party": "Working Families",
+                    "candidateUrl": "http://andrewcuomo.com/",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/andrewcuomo"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/TeamCuomo"
+                        },
+                        {
+                            "type": "YouTube",
+                            "id": "https://www.youtube.com/channel/UC0uUriiTlN_RxMD-GBOTa-Q"
+                        }
+                    ]
+                },
+                {
+                    "name": "Andrew Cuomo",
+                    "party": "Women's Equality",
+                    "candidateUrl": "http://andrewcuomo.com/",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/andrewcuomo"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/TeamCuomo"
+                        },
+                        {
+                            "type": "YouTube",
+                            "id": "https://www.youtube.com/channel/UC0uUriiTlN_RxMD-GBOTa-Q"
+                        }
+                    ]
+                },
+                {
+                    "name": "Andrew Cuomo",
+                    "party": "Independence",
+                    "candidateUrl": "http://andrewcuomo.com/",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/andrewcuomo"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/TeamCuomo"
+                        },
+                        {
+                            "type": "YouTube",
+                            "id": "https://www.youtube.com/channel/UC0uUriiTlN_RxMD-GBOTa-Q"
+                        }
+                    ]
+                },
+                {
+                    "name": "Rob Astorino",
+                    "party": "Republican",
+                    "candidateUrl": "http://www.robastorino.com/",
+                    "phone": "(914) 481-3672",
+                    "email": "info@robastorino.com",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/RobAstorino"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/RobAstorino"
+                        },
+                        {
+                            "type": "YouTube",
+                            "id": "https://www.youtube.com/user/RobAstorino"
+                        }
+                    ]
+                },
+                {
+                    "name": "Rob Astorino",
+                    "party": "Conservative",
+                    "candidateUrl": "http://www.robastorino.com/",
+                    "phone": "(914) 481-3672",
+                    "email": "info@robastorino.com",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/RobAstorino"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/RobAstorino"
+                        },
+                        {
+                            "type": "YouTube",
+                            "id": "https://www.youtube.com/user/RobAstorino"
+                        }
+                    ]
+                },
+                {
+                    "name": "Rob Astorino",
+                    "party": "StopCommonCore",
+                    "candidateUrl": "http://www.robastorino.com/",
+                    "phone": "(914) 481-3672",
+                    "email": "info@robastorino.com",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/RobAstorino"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/RobAstorino"
+                        },
+                        {
+                            "type": "YouTube",
+                            "id": "https://www.youtube.com/user/RobAstorino"
+                        }
+                    ]
+                },
+                {
+                    "name": "Howie Hawkins",
+                    "party": "Green",
+                    "candidateUrl": "http://www.howiehawkins.org/",
+                    "phone": "(315) 701-1592",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/HawkinsforNYGovernor"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/HowieHawkins"
+                        }
+                    ]
+                },
+                {
+                    "name": "Michael McDermott",
+                    "party": "Libertarian",
+                    "candidateUrl": "http://www.mcdermottforcongress2014.com/",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/Mcdermottforgovernor"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/votemcdermott"
+                        },
+                        {
+                            "type": "YouTube",
+                            "id": "https://www.youtube.com/channel/UCPE3CIMzPUjwQlbe8mU7SVg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Steven Cohn",
+                    "party": "Sapient",
+                    "candidateUrl": "http://sapientparty.com/",
+                    "phone": "(516) 586-8024",
+                    "email": "Info@sapientparty.com",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/sapientparty"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "General",
+            "office": "Lt. Governor",
+            "level": [
+                "administrativeArea1"
+            ],
+            "roles": [
+                "deputyHeadOfGovernment"
+            ],
+            "district": {
+                "name": "New York",
+                "scope": "statewide",
+                "id": "ocd-division/country:us/state:ny"
+            },
+            "sources": [
+                {
+                    "name": "Ballot Information Project",
+                    "official": false
+                }
+            ],
+            "candidates": [
+                {
+                    "name": "Kathy Hochul",
+                    "party": "Democratic",
+                    "candidateUrl": "http://kathyhochul.com/",
+                    "phone": "(212) 551-9441",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/KathyHochul"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/KathyHochul"
+                        }
+                    ]
+                },
+                {
+                    "name": "Kathy Hochul",
+                    "party": "Working Families",
+                    "candidateUrl": "http://kathyhochul.com/",
+                    "phone": "(212) 551-9441",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/KathyHochul"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/KathyHochul"
+                        }
+                    ]
+                },
+                {
+                    "name": "Kathy Hochul",
+                    "party": "Independence",
+                    "candidateUrl": "http://kathyhochul.com/",
+                    "phone": "(212) 551-9441",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/KathyHochul"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/KathyHochul"
+                        }
+                    ]
+                },
+                {
+                    "name": "Kathy Hochul",
+                    "party": "Women's Equality",
+                    "candidateUrl": "http://kathyhochul.com/",
+                    "phone": "(212) 551-9441",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/KathyHochul"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/KathyHochul"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chris Moss",
+                    "party": "Republican",
+                    "candidateUrl": "http://albanygop.org/?page_id=766",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/ChrisMossForSheriff"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/SheriffMoss"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chris Moss",
+                    "party": "Conservative",
+                    "candidateUrl": "http://albanygop.org/?page_id=766",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/ChrisMossForSheriff"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/SheriffMoss"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chris Moss",
+                    "party": "StopCommonCore",
+                    "candidateUrl": "http://albanygop.org/?page_id=766",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/ChrisMossForSheriff"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/SheriffMoss"
+                        }
+                    ]
+                },
+                {
+                    "name": "Brian Jones",
+                    "party": "Green",
+                    "candidateUrl": "http://www.howiehawkins.org/about_brian_jones"
+                },
+                {
+                    "name": "Chris Edes",
+                    "party": "Libertarian",
+                    "candidateUrl": "http://www.vote-for-chris.net/",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/ChrisEdesForGovernor"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/ChrisEdesVote4"
+                        },
+                        {
+                            "type": "YouTube",
+                            "id": "https://www.youtube.com/channel/UCKg5VxlNPLlSoOzogCzOBCQ"
+                        }
+                    ]
+                },
+                {
+                    "name": "Bobby K Kalotee",
+                    "party": "Sapient",
+                    "candidateUrl": "http://sapientparty.com/",
+                    "email": "Info@sapientparty.com",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/sapientparty"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/sapientparty"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "General",
+            "office": "Attorney General",
+            "level": [
+                "administrativeArea1"
+            ],
+            "roles": [
+                "governmentOfficer"
+            ],
+            "district": {
+                "name": "New York",
+                "scope": "statewide",
+                "id": "ocd-division/country:us/state:ny"
+            },
+            "sources": [
+                {
+                    "name": "Ballot Information Project",
+                    "official": false
+                }
+            ],
+            "candidates": [
+                {
+                    "name": "Eric Schneiderman",
+                    "party": "Democratic",
+                    "candidateUrl": "http://ericschneiderman.com/",
+                    "phone": "(212) 238-3270",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/SchneidermanNY"
+                        }
+                    ]
+                },
+                {
+                    "name": "Eric Schneiderman",
+                    "party": "Working Families",
+                    "candidateUrl": "http://ericschneiderman.com/",
+                    "phone": "(212) 238-3270",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/SchneidermanNY"
+                        }
+                    ]
+                },
+                {
+                    "name": "Eric Schneiderman",
+                    "party": "Women's Equality",
+                    "candidateUrl": "http://ericschneiderman.com/",
+                    "phone": "(212) 238-3270",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/SchneidermanNY"
+                        }
+                    ]
+                },
+                {
+                    "name": "Eric Schneiderman",
+                    "party": "Independence",
+                    "candidateUrl": "http://ericschneiderman.com/",
+                    "phone": "(212) 238-3270",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/SchneidermanNY"
+                        }
+                    ]
+                },
+                {
+                    "name": "John Cahill",
+                    "party": "Republican",
+                    "candidateUrl": "http://cahillforag.com/",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/CahillForAG"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/CahillForAG"
+                        },
+                        {
+                            "type": "YouTube",
+                            "id": "https://www.youtube.com/channel/UCTxv-EN0gmTEUCCX6f7hcFQ"
+                        }
+                    ]
+                },
+                {
+                    "name": "John Cahill",
+                    "party": "Conservative",
+                    "candidateUrl": "http://cahillforag.com/",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/CahillForAG"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/CahillForAG"
+                        },
+                        {
+                            "type": "YouTube",
+                            "id": "https://www.youtube.com/channel/UCTxv-EN0gmTEUCCX6f7hcFQ"
+                        }
+                    ]
+                },
+                {
+                    "name": "John Cahill",
+                    "party": "StopCommonCore",
+                    "candidateUrl": "http://cahillforag.com/",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/CahillForAG"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/CahillForAG"
+                        },
+                        {
+                            "type": "YouTube",
+                            "id": "https://www.youtube.com/channel/UCTxv-EN0gmTEUCCX6f7hcFQ"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ramon Jimenez",
+                    "party": "Green",
+                    "candidateUrl": "http://ramonjjimenez.wordpress.com/",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/JimenezForAG"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/jimenezforag"
+                        }
+                    ]
+                },
+                {
+                    "name": "Carl Person",
+                    "party": "Libertarian",
+                    "candidateUrl": "http://carl4ag.com/",
+                    "phone": "212-307-0247",
+                    "channels": [
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/carlperson"
+                        },
+                        {
+                            "type": "YouTube",
+                            "id": "https://www.youtube.com/channel/UCIkGkxIegkSN_TfetZ4C9bw"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "General",
+            "office": "Comptroller",
+            "level": [
+                "administrativeArea1"
+            ],
+            "roles": [
+                "governmentOfficer"
+            ],
+            "district": {
+                "name": "New York",
+                "scope": "statewide",
+                "id": "ocd-division/country:us/state:ny"
+            },
+            "sources": [
+                {
+                    "name": "Ballot Information Project",
+                    "official": false
+                }
+            ],
+            "candidates": [
+                {
+                    "name": "Thomas DiNapoli",
+                    "party": "Democratic",
+                    "candidateUrl": "http://dinapoli2014.com/",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/Thomas.P.DiNapoli"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/tomdinapoli"
+                        }
+                    ]
+                },
+                {
+                    "name": "Thomas DiNapoli",
+                    "party": "Working Families",
+                    "candidateUrl": "http://dinapoli2014.com/",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/Thomas.P.DiNapoli"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/tomdinapoli"
+                        }
+                    ]
+                },
+                {
+                    "name": "Thomas DiNapoli",
+                    "party": "Women's Equality",
+                    "candidateUrl": "http://dinapoli2014.com/",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/Thomas.P.DiNapoli"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/tomdinapoli"
+                        }
+                    ]
+                },
+                {
+                    "name": "Thomas DiNapoli",
+                    "party": "Independence",
+                    "candidateUrl": "http://dinapoli2014.com/",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/Thomas.P.DiNapoli"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/tomdinapoli"
+                        }
+                    ]
+                },
+                {
+                    "name": "Robert Antonacci",
+                    "party": "Republican",
+                    "candidateUrl": "http://www.bobantonacci.com/",
+                    "phone": "(315) 399-5589",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/bobantonacci1"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/antonaccicpa"
+                        },
+                        {
+                            "type": "YouTube",
+                            "id": "https://www.youtube.com/user/AntonacciCPA"
+                        }
+                    ]
+                },
+                {
+                    "name": "Robert Antonacci",
+                    "party": "Conservative",
+                    "candidateUrl": "http://www.bobantonacci.com/",
+                    "phone": "(315) 399-5589",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/bobantonacci1"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/antonaccicpa"
+                        },
+                        {
+                            "type": "YouTube",
+                            "id": "https://www.youtube.com/user/AntonacciCPA"
+                        }
+                    ]
+                },
+                {
+                    "name": "Robert Antonacci",
+                    "party": "StopCommonCore",
+                    "candidateUrl": "http://www.bobantonacci.com/",
+                    "phone": "(315) 399-5589",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/bobantonacci1"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/antonaccicpa"
+                        },
+                        {
+                            "type": "YouTube",
+                            "id": "https://www.youtube.com/user/AntonacciCPA"
+                        }
+                    ]
+                },
+                {
+                    "name": "Theresa Portelli",
+                    "party": "Green",
+                    "candidateUrl": "http://theresaportelli.info/",
+                    "channels": [
+                        {
+                            "type": "Facebook",
+                            "id": "https://www.facebook.com/TheresaPortelliForNYSComptroller"
+                        },
+                        {
+                            "type": "Twitter",
+                            "id": "https://twitter.com/Theresa4Comp"
+                        }
+                    ]
+                },
+                {
+                    "name": "John Clifton",
+                    "party": "Libertarian",
+                    "candidateUrl": "http://electclifton.wordpress.com/",
+                    "phone": "347-869-1729",
+                    "email": "electclifton@spamarrest.com"
+                }
+            ]
+        },
+        {
+            "type": "Referendum",
+            "district": {
+                "name": "New York",
+                "scope": "statewide",
+                "id": "ocd-division/country:us/state:ny"
+            },
+            "referendumTitle": "PROPOSAL NUMBER ONE, AN AMENDMENT",
+            "referendumSubtitle": "Revising State's Redistricting Procedure",
+            "referendumUrl": "http://www.elections.ny.gov/ProposedConsAmendments.html",
+            "sources": [
+                {
+                    "name": "Ballot Information Project",
+                    "official": false
+                }
+            ]
+        },
+        {
+            "type": "Referendum",
+            "district": {
+                "name": "New York",
+                "scope": "statewide",
+                "id": "ocd-division/country:us/state:ny"
+            },
+            "referendumTitle": "PROPOSAL NUMBER THREE, A PROPOSITION",
+            "referendumSubtitle": "SMART SCHOOLS BOND ACT OF 2014",
+            "referendumUrl": "http://www.elections.ny.gov/ProposedConsAmendments.html",
+            "sources": [
+                {
+                    "name": "Ballot Information Project",
+                    "official": false
+                }
+            ]
+        },
+        {
+            "type": "Referendum",
+            "district": {
+                "name": "New York",
+                "scope": "statewide",
+                "id": "ocd-division/country:us/state:ny"
+            },
+            "referendumTitle": "PROPOSAL NUMBER TWO, AN AMENDMENT",
+            "referendumSubtitle": "Permitting Electronic Distribution of State Legislative Bills",
+            "referendumUrl": "http://www.elections.ny.gov/ProposedConsAmendments.html",
+            "sources": [
+                {
+                    "name": "Ballot Information Project",
+                    "official": false
+                }
+            ]
+        }
+    ],
+    "state": [
+        {
+            "name": "New York",
+            "electionAdministrationBody": {
+                "name": "State Board of Elections",
+                "electionInfoUrl": "https://www.elections.ny.gov/",
+                "electionRegistrationUrl": "https://voterreg.dmv.ny.gov/MotorVoter/",
+                "electionRegistrationConfirmationUrl": "https://voterlookup.elections.ny.gov/",
+                "absenteeVotingInfoUrl": "https://www.elections.ny.gov/NYSBOE/download/voting/AbsenteeBallot-English.pdf",
+                "votingLocationFinderUrl": "https://voterlookup.elections.ny.gov/",
+                "ballotInfoUrl": "https://nysballot.elections.ny.gov/TrackMyBallot/Search",
+                "correspondenceAddress": {
+                    "line1": "40 North Pearl Street, Suite 5",
+                    "city": "Albany",
+                    "state": "New York",
+                    "zip": "12207-2729"
+                }
+            },
+            "sources": [
+                {
+                    "name": "",
+                    "official": false
+                }
+            ]
+        }
+    ],
+    "kind": "civicinfo#voterInfoResponse"
+}

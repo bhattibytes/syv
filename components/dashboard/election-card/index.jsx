@@ -42,9 +42,9 @@ export default function ElectionCard({ election }) {
         </div>
         <span>
           <div className="text-gray-900 text-2xl font-bold align-middle">{election.election.name}</div>
-          <div className="text-gray-900 text-lg font-light italic">
+          {/* <div className="text-gray-900 text-lg font-light italic">
             {`${election.state[0].local_jurisdiction.name}, ${election.state[0].name}`}
-          </div>
+          </div> */}
         </span>
         <button className="justify-self-end self-center ml-auto btn btn-purple flex flex-row gap-2 items-center" onClick={() => router.push('/dashboard/ballot')}>
           Vote Here

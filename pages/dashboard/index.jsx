@@ -10,6 +10,7 @@ import ElectionCard from '../../components/dashboard/election-card';
 
 import voterInfoData from '../../samples/voterInfoQuery';
 import voterInfoQuery from '../../samples/voterInfoQuery';
+import dummyVoterData from './dummyData.json';
 
 export default function DashboardHome(props) {
   return (
@@ -51,7 +52,10 @@ export async function getServerSideProps(context) {
     };
   } catch (err) {
     return {
-      redirect: { destination: '/sign-in', permanent: false },
+      props: {
+        voterInfo: dummyVoterData,
+        user: null,
+      },
     };
   }
 }
